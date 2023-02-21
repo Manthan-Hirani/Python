@@ -1,5 +1,10 @@
-str = "Python Developer"
-str = list(str)
+a = "Python Developer"
+b = slice(0,len(a),2) 
+print(a[b])
+
+print(a[::2])
+
+# str = list(str)
 
 # Using While Loop
 
@@ -10,6 +15,7 @@ str = list(str)
 
 # Using For Loop
 
-for i in range(0,len(str),2):
-    print(str[i],end=", ")
+# for i in range(0,len(str),2):
+#     print(str[i],end=", ")
+
         
