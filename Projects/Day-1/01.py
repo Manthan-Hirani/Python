@@ -1,21 +1,5 @@
 a = "Python Developer"
-b = slice(0,len(a),2) 
-print(a[b])
+# b = slice(0,len(a),2) 
+# print(a[b])
 
 print(a[::2])
-
-# str = list(str)
-
-# Using While Loop
-
-# i = 0
-# while(i<len(str)):
-#     print(str[i],end=", ")
-#     i+=2
-
-# Using For Loop
-
-# for i in range(0,len(str),2):
-#     print(str[i],end=", ")
-
-        
