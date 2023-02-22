@@ -8,9 +8,6 @@ sub_set = first_set.issubset(second_set)
 super_set = first_set.issuperset(second_set)
 
 if (sub_set or super_set):
-    first_set.clear()
-    second_set.clear()
-    print("Now, both sets are Empty")
+    second_set = second_set.difference(first_set)
 
-print(first_set)
 print(second_set)
